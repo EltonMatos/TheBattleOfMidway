@@ -1,0 +1,2855 @@
+fileFormatVersion: 2
+guid: b5bf42dd502197340ad90e5c17964a75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3725448953973593561
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_0
+  - first:
+      213: -7054605205962188200
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_1
+  - first:
+      213: 6966163210534961090
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_2
+  - first:
+      213: 1586624977688926081
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_3
+  - first:
+      213: 4674779929898924452
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_4
+  - first:
+      213: -7811294754634361379
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_5
+  - first:
+      213: -4709842779020418597
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_6
+  - first:
+      213: 9106924060184770583
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_7
+  - first:
+      213: 7477494792095631537
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_8
+  - first:
+      213: -7018188696790163013
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_9
+  - first:
+      213: -1680633770106512817
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_10
+  - first:
+      213: 1832907537090838319
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_11
+  - first:
+      213: -3265385531106051511
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_12
+  - first:
+      213: 4925636649174600502
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_13
+  - first:
+      213: -3316558532738064301
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_14
+  - first:
+      213: -5200197931193500559
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_15
+  - first:
+      213: -3371197439532377951
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_16
+  - first:
+      213: 2686123992375355693
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_17
+  - first:
+      213: 6250988797889266264
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_18
+  - first:
+      213: -5510886757623355769
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_19
+  - first:
+      213: 4736684546135566024
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_20
+  - first:
+      213: -3895987320786699447
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_21
+  - first:
+      213: 6451008776786466851
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_22
+  - first:
+      213: -1379391364443402742
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_23
+  - first:
+      213: -2922301829505792656
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_24
+  - first:
+      213: -3354991883610460924
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_25
+  - first:
+      213: -268051721094876462
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_26
+  - first:
+      213: 2149484146723581816
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_27
+  - first:
+      213: -4647078882135162310
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_28
+  - first:
+      213: 3596917796631974154
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_29
+  - first:
+      213: 4541996562223962971
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_30
+  - first:
+      213: 4959423195319234208
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_31
+  - first:
+      213: -6002289573565530416
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_32
+  - first:
+      213: 4027588764900825158
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_33
+  - first:
+      213: -1128422255285551661
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_34
+  - first:
+      213: 7621058600469818720
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_35
+  - first:
+      213: -1127946217174529991
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_36
+  - first:
+      213: -8424839091774379536
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_37
+  - first:
+      213: 5517219947271741176
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_38
+  - first:
+      213: -195635514009084566
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_39
+  - first:
+      213: 1018119167328891113
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_40
+  - first:
+      213: 997014823112385233
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_41
+  - first:
+      213: 9133675982700353208
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_42
+  - first:
+      213: -8171895126276295636
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_43
+  - first:
+      213: 914347444883730836
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_44
+  - first:
+      213: 4320729057125560805
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_45
+  - first:
+      213: 5804760389813479804
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_46
+  - first:
+      213: 3798769752195928839
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_47
+  - first:
+      213: -1960986695745308964
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_48
+  - first:
+      213: 6855778890662062087
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_49
+  - first:
+      213: -4366720654416631670
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_50
+  - first:
+      213: 6155161238941547227
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_51
+  - first:
+      213: -4389700562369401176
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_52
+  - first:
+      213: 2421021413880007230
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_53
+  - first:
+      213: 8144292861781809080
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_54
+  - first:
+      213: 8698217384016901156
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_55
+  - first:
+      213: -2193059744407971888
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_56
+  - first:
+      213: 2207659431237295277
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_57
+  - first:
+      213: -7496782642173158234
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_58
+  - first:
+      213: -4079861808876045373
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_59
+  - first:
+      213: -4051124555710425613
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_60
+  - first:
+      213: -1365781255609617795
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_61
+  - first:
+      213: -9141008662018369855
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_62
+  - first:
+      213: 4459227336551754730
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_63
+  - first:
+      213: -5383293032294670020
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_64
+  - first:
+      213: -4191226352475803175
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_65
+  - first:
+      213: -914160129716745179
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_66
+  - first:
+      213: 6320287997297802499
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_67
+  - first:
+      213: 4513604543056850242
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_68
+  - first:
+      213: -6788203549391329739
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_69
+  - first:
+      213: 8389387288255200926
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_70
+  - first:
+      213: 4738828802452112881
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_71
+  - first:
+      213: 2983380380499056649
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_72
+  - first:
+      213: -7131738692083863528
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_73
+  - first:
+      213: -3327781981194888355
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_74
+  - first:
+      213: 2307567629077590286
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_75
+  - first:
+      213: 6473129591262001176
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_76
+  - first:
+      213: 5476726264114207391
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_77
+  - first:
+      213: -8182342365962482035
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_78
+  - first:
+      213: -5888732621684159473
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_79
+  - first:
+      213: -382408413387908743
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_80
+  - first:
+      213: 7847417280355430680
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_81
+  - first:
+      213: -6362722286814341941
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_82
+  - first:
+      213: -592148389739616126
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_83
+  - first:
+      213: 4642543612644735393
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_84
+  - first:
+      213: -2640042089606520375
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_85
+  - first:
+      213: -8159989952362424865
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_86
+  - first:
+      213: 5070684710209869396
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_87
+  - first:
+      213: 2930030409007384088
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_88
+  - first:
+      213: 2132211308755888103
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_89
+  - first:
+      213: -3729285755119997819
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_90
+  - first:
+      213: 372961125156274535
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_91
+  - first:
+      213: -8836674509741000638
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_92
+  - first:
+      213: 1332837819437255838
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_93
+  - first:
+      213: -1003194165971822107
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_94
+  - first:
+      213: 7431385993200130622
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_95
+  - first:
+      213: 5290113295619853200
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_96
+  - first:
+      213: -6996824006008511248
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_97
+  - first:
+      213: -4679512833023327363
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_98
+  - first:
+      213: 1934080110061547127
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_99
+  - first:
+      213: 2214952850044958571
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_100
+  - first:
+      213: 7840901947147575064
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_101
+  - first:
+      213: -4584541192311073240
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_102
+  - first:
+      213: -2626332174865721625
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_103
+  - first:
+      213: -7297237791255117664
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_104
+  - first:
+      213: 4531852993738258793
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_105
+  - first:
+      213: -8555029034975694051
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_106
+  - first:
+      213: 9051356403263223845
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_107
+  - first:
+      213: -3723434902736791460
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_108
+  - first:
+      213: -7952419307661395093
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_109
+  - first:
+      213: -7685277469187010627
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_110
+  - first:
+      213: 8463620033963524146
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_111
+  - first:
+      213: 1886784467300173985
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_112
+  - first:
+      213: -2989430317246384770
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_113
+  - first:
+      213: 7260721891150461229
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_114
+  - first:
+      213: -7321598042261378043
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_115
+  - first:
+      213: -4720982829759339324
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_116
+  - first:
+      213: -3470308591366404574
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_117
+  - first:
+      213: 5912646939107139903
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_118
+  - first:
+      213: -7981676691955679350
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_119
+  - first:
+      213: -4039345679947616778
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_120
+  - first:
+      213: 1253948706091404295
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_121
+  - first:
+      213: 1115384307076042533
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_122
+  - first:
+      213: -4087012836326537993
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_123
+  - first:
+      213: -8216818076010419414
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_124
+  - first:
+      213: 5449773307889724741
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_125
+  - first:
+      213: -1902877742227482898
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_126
+  - first:
+      213: -1554739080042799865
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_127
+  - first:
+      213: -3399276296762084136
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_128
+  - first:
+      213: 4107610372410536331
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_129
+  - first:
+      213: -8192280019173154835
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_130
+  - first:
+      213: 313667090060384878
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_131
+  - first:
+      213: -2675495529448296788
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_132
+  - first:
+      213: 695484127562350267
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_133
+  - first:
+      213: -7121270383470548403
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_134
+  - first:
+      213: 454700173452770918
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_135
+  - first:
+      213: -7176332326728503155
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_136
+  - first:
+      213: 8715277754495772635
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_137
+  - first:
+      213: -8620098250168404990
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_138
+  - first:
+      213: -5795342233040544513
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_139
+  - first:
+      213: 7842111393446388312
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_140
+  - first:
+      213: -3365979298927186745
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_141
+  - first:
+      213: 7425490677488467117
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_142
+  - first:
+      213: 8091474149511672505
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_143
+  - first:
+      213: 7823527667189186718
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_144
+  - first:
+      213: -2170715312647922472
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_145
+  - first:
+      213: -5040518531963057892
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_146
+  - first:
+      213: 6399604011371124403
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_147
+  - first:
+      213: 1910811446289679230
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_148
+  - first:
+      213: -1987027936828152777
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_149
+  - first:
+      213: 6456357014211842785
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_150
+  - first:
+      213: 8691447076170844395
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_151
+  - first:
+      213: -4512392767657968688
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_152
+  - first:
+      213: 1414238834387899147
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_153
+  - first:
+      213: -268709448865116070
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_154
+  - first:
+      213: 219677687802743940
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_155
+  - first:
+      213: 6477008495581262069
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_156
+  - first:
+      213: -5536225438617100747
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_157
+  - first:
+      213: -7723867574787724814
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_158
+  - first:
+      213: -5751554222670103400
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_159
+  - first:
+      213: 6275850687743171561
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_160
+  - first:
+      213: 2746980921291165641
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_161
+  - first:
+      213: 1341452457614592491
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_162
+  - first:
+      213: -7099809733226924868
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_163
+  - first:
+      213: 5411076915103169429
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_164
+  - first:
+      213: -625352035956854451
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_165
+  - first:
+      213: 145628825791490215
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_166
+  - first:
+      213: -205871207167626528
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_167
+  - first:
+      213: -2700489719781693519
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_168
+  - first:
+      213: -1116521762567510648
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_169
+  - first:
+      213: 6463469656696053693
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_170
+  - first:
+      213: 1119656180398909428
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_171
+  - first:
+      213: 8012677731021997395
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_172
+  - first:
+      213: -2957387823958955494
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_173
+  - first:
+      213: 7345851902349979258
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_174
+  - first:
+      213: -8983200536468307108
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_175
+  - first:
+      213: -8280880194381102183
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_176
+  - first:
+      213: -697032794628265502
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_177
+  - first:
+      213: 7553002056010038395
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_178
+  - first:
+      213: 1281014811048018793
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_179
+  - first:
+      213: 2932435949179266831
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_180
+  - first:
+      213: 7845638146316700165
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_181
+  - first:
+      213: -8492418603667769415
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_182
+  - first:
+      213: -4464819785767317834
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_183
+  - first:
+      213: 3290746318901252227
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_184
+  - first:
+      213: -2686045061809633953
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_185
+  - first:
+      213: 3256753033547356699
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_186
+  - first:
+      213: 3348821043436419621
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_187
+  - first:
+      213: -2476476734947257611
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_188
+  - first:
+      213: 360177330378575235
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_189
+  - first:
+      213: -6470533248123961142
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_190
+  - first:
+      213: 9024830915715737414
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_191
+  - first:
+      213: 7460748971297748371
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_192
+  - first:
+      213: -7930873017797762962
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_193
+  - first:
+      213: -915913992745671402
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_194
+  - first:
+      213: -6428062998485114892
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_195
+  - first:
+      213: 9180427172689395882
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_196
+  - first:
+      213: 682871016482825516
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_197
+  - first:
+      213: -6913812171770221860
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_198
+  - first:
+      213: -3337962428578065918
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_199
+  - first:
+      213: 628142565891082056
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_200
+  - first:
+      213: -2443516244929648403
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_201
+  - first:
+      213: -3633270479860273780
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_202
+  - first:
+      213: 8141553860351631517
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_203
+  - first:
+      213: -2479543660646058671
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_204
+  - first:
+      213: -2333547176692027734
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_205
+  - first:
+      213: -7565106930789516548
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_206
+  - first:
+      213: 5023652429624811155
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_207
+  - first:
+      213: 6722869309392558602
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_208
+  - first:
+      213: 940516652859944221
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_209
+  - first:
+      213: -3161597161092787446
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_210
+  - first:
+      213: 3223471034348177815
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_211
+  - first:
+      213: 6536500049759253126
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_212
+  - first:
+      213: -6556748426479267853
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_213
+  - first:
+      213: 5169986081644089728
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_214
+  - first:
+      213: 2315769615420285693
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_215
+  - first:
+      213: 5173503089584808076
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_216
+  - first:
+      213: -6476896136130513828
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_217
+  - first:
+      213: 3312915870249589808
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_218
+  - first:
+      213: -9127497476164466533
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_219
+  - first:
+      213: 3094184087786805758
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_220
+  - first:
+      213: -139503520286112574
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_221
+  - first:
+      213: 4107918422975904719
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_222
+  - first:
+      213: 8745775468190811430
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_223
+  - first:
+      213: 6132621277974723086
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_224
+  - first:
+      213: 72988249760984585
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_225
+  - first:
+      213: -4481886635411832471
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_226
+  - first:
+      213: -3959945768939161064
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_227
+  - first:
+      213: 7301285053911826362
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_228
+  - first:
+      213: 1153932140672372564
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_229
+  - first:
+      213: 6745883738609563897
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_230
+  - first:
+      213: -8124417551501793321
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_231
+  - first:
+      213: -521876871583130997
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_232
+  - first:
+      213: -4845925811450817019
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_233
+  - first:
+      213: -4100009725434091952
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_234
+  - first:
+      213: 537984664787991201
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_235
+  - first:
+      213: 8291898135333504802
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_236
+  - first:
+      213: 8664172868227935804
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_237
+  - first:
+      213: 3733767623199914704
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_238
+  - first:
+      213: -8212833539938060510
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_239
+  - first:
+      213: -3772042335598803832
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_240
+  - first:
+      213: 5107334051569316437
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_241
+  - first:
+      213: 1422277423306081370
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_242
+  - first:
+      213: 8459473443066277345
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_243
+  - first:
+      213: 2067832281951083947
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_244
+  - first:
+      213: 1077166139961464111
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_245
+  - first:
+      213: 7852062628008189518
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_246
+  - first:
+      213: 4092176838067943251
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_247
+  - first:
+      213: -6117170357914238724
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_248
+  - first:
+      213: 3559777019957437540
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_249
+  - first:
+      213: -7621110233274530192
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_250
+  - first:
+      213: 3111067982800926061
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_251
+  - first:
+      213: -1820408832811097305
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_252
+  - first:
+      213: -3960645831689264928
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_253
+  - first:
+      213: 6380243457070231349
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_254
+  - first:
+      213: 1830450306606896582
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_255
+  - first:
+      213: -8548452188225716565
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_256
+  - first:
+      213: 2178545575815579615
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_257
+  - first:
+      213: 267849123423379944
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_258
+  - first:
+      213: 791462296803340845
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_259
+  - first:
+      213: -7003203663765229550
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_260
+  - first:
+      213: -1947921152274169762
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_261
+  - first:
+      213: -2712991940645733683
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_262
+  - first:
+      213: -837301305452755424
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_263
+  - first:
+      213: 1040026898677488292
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_264
+  - first:
+      213: 9186978942507934804
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_265
+  - first:
+      213: -5982431314086675035
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_266
+  - first:
+      213: -852342116090331870
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_267
+  - first:
+      213: 8244537215099602132
+    second: Arcade - 1943 - The Battle of Midway - Background Tiles_268
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aad852aeb8c4cc0800000000000000
+      internalID: -3725448953973593561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a900c21f1091e90800000000000000
+      internalID: -7054605205962188200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfb45b1888cca060800000000000000
+      internalID: 6966163210534961090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18719eac203d40610800000000000000
+      internalID: 1586624977688926081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a930c4049720e040800000000000000
+      internalID: 4674779929898924452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd595228ec4b89390800000000000000
+      internalID: -7811294754634361379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1ac8042f643aeb0800000000000000
+      internalID: -4709842779020418597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71875c3ae2b426e70800000000000000
+      internalID: 9106924060184770583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b881bc55e565c760800000000000000
+      internalID: 7477494792095631537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1292170926a9e90800000000000000
+      internalID: -7018188696790163013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a964f8d703da8e0800000000000000
+      internalID: -1680633770106512817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f7f6e91bbcf6910800000000000000
+      internalID: 1832907537090838319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a39b309250fa2d0800000000000000
+      internalID: -3265385531106051511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b82be6f606b5440800000000000000
+      internalID: 4925636649174600502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3506b5b169739f1d0800000000000000
+      internalID: -3316558532738064301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c7d7d888f25d7b0800000000000000
+      internalID: -5200197931193500559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a857f44ac91731d0800000000000000
+      internalID: -3371197439532377951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29ef241a87074520800000000000000
+      internalID: 2686123992375355693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852c2294139ffb650800000000000000
+      internalID: 6250988797889266264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786a47e11b56583b0800000000000000
+      internalID: -5510886757623355769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c62e79af751cb140800000000000000
+      internalID: 4736684546135566024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b351f6c2caee9c0800000000000000
+      internalID: -3895987320786699447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328d847bd46968950800000000000000
+      internalID: 6451008776786466851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e0c14ccda6bdce0800000000000000
+      internalID: -1379391364443402742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07545d518f5e177d0800000000000000
+      internalID: -2922301829505792656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d641948aca071d0800000000000000
+      internalID: -3354991883610460924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d235be3160b74cf0800000000000000
+      internalID: -268051721094876462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87feac7617084dd10800000000000000
+      internalID: 2149484146723581816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a324d13c062428fb0800000000000000
+      internalID: -4647078882135162310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a019782cda1dae130800000000000000
+      internalID: 3596917796631974154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b976e0fc9680f30800000000000000
+      internalID: 4541996562223962971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aee5d7be1963d440800000000000000
+      internalID: 4959423195319234208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de78903f6593bca0800000000000000
+      internalID: -6002289573565530416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648944184aed4e730800000000000000
+      internalID: 4027588764900825158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd3f0dffe90750f0800000000000000
+      internalID: -1128422255285551661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_35
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d60754b6073c960800000000000000
+      internalID: 7621058600469818720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_36
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938019f34eab850f0800000000000000
+      internalID: -1127946217174529991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_37
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9a6f49b75f41b80800000000000000
+      internalID: -8424839091774379536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_38
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fed4d08f4a119c40800000000000000
+      internalID: 5517219947271741176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_39
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d990a5986f84df0800000000000000
+      internalID: -195635514009084566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_40
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0b7ab0df5112e00800000000000000
+      internalID: 1018119167328891113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_41
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2a96ff2bb16dd00800000000000000
+      internalID: 997014823112385233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_42
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b61f5af9e551ce70800000000000000
+      internalID: 9133675982700353208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c243e80eda8979e80800000000000000
+      internalID: -8171895126276295636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491b49d182a60bc00800000000000000
+      internalID: 914347444883730836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_45
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e17dac6f2056fb30800000000000000
+      internalID: 4320729057125560805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_46
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c792711d1d6ae8050800000000000000
+      internalID: 5804760389813479804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_47
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703132f76f0f7b430800000000000000
+      internalID: 3798769752195928839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_48
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd675de6dfc29c4e0800000000000000
+      internalID: -1960986695745308964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_49
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708a88cd39e942f50800000000000000
+      internalID: 6855778890662062087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_50
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88a22063ba4663c0800000000000000
+      internalID: -4366720654416631670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_51
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 256
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda3d5e09868b6550800000000000000
+      internalID: 6155161238941547227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_52
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aea3ad9896a413c0800000000000000
+      internalID: -4389700562369401176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_53
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a8ee71622399120800000000000000
+      internalID: 2421021413880007230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7114d1537560170800000000000000
+      internalID: 8144292861781809080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_55
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424747920a646b870800000000000000
+      internalID: 8698217384016901156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_56
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d79a5328cfa091e0800000000000000
+      internalID: -2193059744407971888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_57
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac90f75e8e23ae10800000000000000
+      internalID: 2207659431237295277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_58
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac54f618e316f790800000000000000
+      internalID: -7496782642173158234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_59
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbb2450d4b6167c0800000000000000
+      internalID: -4079861808876045373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_60
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 221
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5940c2ea387c7c0800000000000000
+      internalID: -4051124555710425613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_61
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 221
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72708a2f25cb0de0800000000000000
+      internalID: -1365781255609617795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_62
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 221
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c650a39d0d942180800000000000000
+      internalID: -9141008662018369855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_63
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 221
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebe0e7f2ab52ed30800000000000000
+      internalID: 4459227336551754730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 221
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31ad305283ba45b0800000000000000
+      internalID: -5383293032294670020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_65
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 221
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d17c67a6d5c5d5c0800000000000000
+      internalID: -4191226352475803175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_66
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c886894304053f0800000000000000
+      internalID: -914160129716745179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_67
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db91d727c26b750800000000000000
+      internalID: 6320287997297802499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_68
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d2e75fa6b83ae30800000000000000
+      internalID: 4513604543056850242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_69
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536eb7756d47bc1a0800000000000000
+      internalID: -6788203549391329739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_70
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 189
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ef0af2a471d6470800000000000000
+      internalID: 8389387288255200926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_71
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f54c8d30b3b3c140800000000000000
+      internalID: 4738828802452112881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_72
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908148146a8176920800000000000000
+      internalID: 2983380380499056649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_73
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810be63f179f60d90800000000000000
+      internalID: -7131738692083863528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bdee06be751d1d0800000000000000
+      internalID: -3327781981194888355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_75
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e013c5a5880260020800000000000000
+      internalID: 2307567629077590286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_76
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 155
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818bd30311d25d950800000000000000
+      internalID: 6473129591262001176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_77
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 155
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a5490358d310c40800000000000000
+      internalID: 5476726264114207391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_78
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 155
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e4d2658fa727e80800000000000000
+      internalID: -8182342365962482035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_79
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 155
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cc24361e4074ea0800000000000000
+      internalID: -5888732621684159473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_80
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97994e8f29961baf0800000000000000
+      internalID: -382408413387908743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_81
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811f8d76070a7ec60800000000000000
+      internalID: 7847417280355430680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_82
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc458f19ac113b7a0800000000000000
+      internalID: -6362722286814341941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_83
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28820474d2448c7f0800000000000000
+      internalID: -592148389739616126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_84
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9b2f581d0ad6040800000000000000
+      internalID: 4642543612644735393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_85
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c16ce005bfac5bd0800000000000000
+      internalID: -2640042089606520375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_86
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd55eae2f54e1ce80800000000000000
+      internalID: -8159989952362424865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_87
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4565018d0e0be5640800000000000000
+      internalID: 5070684710209869396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_88
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8164afd022f89a820800000000000000
+      internalID: 2930030409007384088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_89
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7277c63e2279d10800000000000000
+      internalID: 2132211308755888103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_90
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ce5244d5aee3cc0800000000000000
+      internalID: -3729285755119997819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - 1943 - The Battle of Midway - Background Tiles_91
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 56
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76148f3da260d2500800000000000000
+      internalID: 372961125156274535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
