@@ -3,25 +3,41 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public enum GameStatus
+{
+    Anim,
+    Start,
+    Pause,
+    GameOver
+}
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    public List<GameObject> enemys;    
-    public AirplanePlayer player1;    
+    public GameStatus gameStatus;
     
-    public Transform posInicial, posEnemy, posEnemy2;
-    public int playerEmCena = 0;
-    public int enemyEmCena = 0;
+    private PlanePlayer player1;    
 
-    public Transform objDown, objUp;    
+    [SerializeField]
+    private PlaneEnemy[] enemys;    
+
+    public Transform posInicial;
+    private int playerEmCena = 0;       
+        
+    public Transform[] posEnemy1;
+    public Transform[] posEnemy2;
+    public Transform[] posEnemy3;
+    public bool startEnemy1, startEnemy2, startEnemy3 = false;
+    private int positionFinalEnemy1, positionFinalEnemy2, positionFinalEnemy3 = 0;
+    
 
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            //DontDestroyOnLoad(this.gameObject);
+            DontDestroyOnLoad(this.gameObject);
         }
         else
         {
@@ -33,39 +49,48 @@ public class GameManager : MonoBehaviour
 
     void Carrega(Scene cena, LoadSceneMode modo)
     {
-        objDown = GameObject.FindWithTag("objDown").GetComponent<Transform>();
-        objUp = GameObject.FindWithTag("objUp").GetComponent<Transform>();
-        player1 = GameObject.FindWithTag("Player").GetComponent<AirplanePlayer>();
+        player1 = GameObject.FindWithTag("Player").GetComponent<PlanePlayer>();
     }
-
     void Start()
     {
-        CriarAviao();
-        StartEnemy();
+        gameStatus = GameStatus.Start;
+        if(gameStatus == GameStatus.Start)
+        {
+            CriarAviao();
+        }
     }
     
     void Update()
     {
-        if(enemyEmCena <= 2)
-        {
-            GameObject e1 = Instantiate(enemys[0], new Vector3(posEnemy.transform.position.x, posEnemy.transform.position.y, 0), Quaternion.identity) as GameObject;
-            GameObject e2 = Instantiate(enemys[1], new Vector3(posEnemy2.transform.position.x, posEnemy2.transform.position.y, 0), Quaternion.identity) as GameObject;
-            enemyEmCena++;
-
-            e1.GetComponent<MovimentacaoEnemy>().Vel *= transform.localScale.y;
-            e2.GetComponent<MovimentacaoEnemy>().Vel *= transform.localScale.y;            
-        }
+        if(gameStatus == GameStatus.Start)
+        {            
+            StartEnemy();
+        }        
     }
 
     public void StartEnemy()
     {
-        //Instantiate(enemys[0], new Vector3(posEnemy.transform.position.x, posEnemy.transform.position.y, 0), Quaternion.identity);
-        //Instantiate(enemys[1], new Vector3(posEnemy2.transform.position.x, posEnemy.transform.position.y, 0), Quaternion.identity);
-        //Instantiate(enemys[1], posEnemy2.transform.position, Quaternion.identity);
-        //enemyEmCena++;        
-    }
+        if(startEnemy1 == true)
+        {
+            startEnemy1 = false;           
+            Instantiate(enemys[0], posEnemy1[positionFinalEnemy1].transform.position, Quaternion.identity);            
+            positionFinalEnemy1++;
+        }
+        if (startEnemy2 == true)
+        {
+            startEnemy2 = false;
+            Instantiate(enemys[1], posEnemy2[positionFinalEnemy2].transform.position, Quaternion.identity);
+            positionFinalEnemy2++;            
+        }
+        if (startEnemy3 == true)
+        {
+            startEnemy3 = false;
+            Instantiate(enemys[2], posEnemy3[positionFinalEnemy3].transform.position, Quaternion.identity);            
+            positionFinalEnemy3++;
+        }
+    }    
 
-    void CriarAviao()
+    public void CriarAviao()
     {   
         if (player1.transform.position != posInicial.position && playerEmCena == 0)
         {            
@@ -73,4 +98,9 @@ public class GameManager : MonoBehaviour
             playerEmCena = 1;
         }
     }
+
+    
+
+
 }
+

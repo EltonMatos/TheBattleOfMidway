@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: c5fcc91685af10d44a2dfc367a123b49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2525084443772596679
+    second: BigExplodeEnemy_0
+  - first:
+      213: 8454232984147710718
+    second: BigExplodeEnemy_1
+  - first:
+      213: -2821183541847743823
+    second: BigExplodeEnemy_2
+  - first:
+      213: -8366534245909219399
+    second: BigExplodeEnemy_3
+  - first:
+      213: 7838885953255264809
+    second: BigExplodeEnemy_4
+  - first:
+      213: 2721475946613750087
+    second: BigExplodeEnemy_5
+  - first:
+      213: -4449867204883774309
+    second: BigExplodeEnemy_6
+  - first:
+      213: 5632293299097317985
+    second: BigExplodeEnemy_7
+  - first:
+      213: 18804027463670994
+    second: BigExplodeEnemy_8
+  - first:
+      213: 1168905992820175224
+    second: BigExplodeEnemy_9
+  - first:
+      213: -8223463718594261345
+    second: BigExplodeEnemy_10
+  - first:
+      213: 5506388142986872636
+    second: BigExplodeEnemy_11
+  - first:
+      213: -8412824561005083234
+    second: BigExplodeEnemy_12
+  - first:
+      213: -314656159421795300
+    second: BigExplodeEnemy_13
+  - first:
+      213: -2568133700503432206
+    second: BigExplodeEnemy_14
+  - first:
+      213: 3754236439867208029
+    second: BigExplodeEnemy_15
+  - first:
+      213: 141414007574098055
+    second: BigExplodeEnemy_16
+  - first:
+      213: -1827590890828627605
+    second: BigExplodeEnemy_17
+  - first:
+      213: 3910091149503736583
+    second: BigExplodeEnemy_18
+  - first:
+      213: -132878188023891163
+    second: BigExplodeEnemy_19
+  - first:
+      213: 8860334808923602214
+    second: BigExplodeEnemy_20
+  - first:
+      213: -844511852026923115
+    second: BigExplodeEnemy_21
+  - first:
+      213: 3893629627850958592
+    second: BigExplodeEnemy_22
+  - first:
+      213: 4059811237974797301
+    second: BigExplodeEnemy_23
+  - first:
+      213: 6470848425939623562
+    second: BigExplodeEnemy_24
+  - first:
+      213: -1862995153864753133
+    second: BigExplodeEnemy_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BigExplodeEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 41
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec11da31915fcd0800000000000000
+      internalID: -2525084443772596679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 40
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2d38c4b18735570800000000000000
+      internalID: 8454232984147710718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 35
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2acf5148429d8d0800000000000000
+      internalID: -2821183541847743823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 40
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7b07f5e6914eb80800000000000000
+      internalID: -8366534245909219399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 40
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92254960e3159cc60800000000000000
+      internalID: 7838885953255264809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 40
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749bea654ff94c520800000000000000
+      internalID: 2721475946613750087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 40
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b940e338a55ee32c0800000000000000
+      internalID: -4449867204883774309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_8
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 41
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc9151d92ec24000800000000000000
+      internalID: 18804027463670994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 4
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f398c581082c5cd0800000000000000
+      internalID: -2568133700503432206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_15
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 4
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51bc19b62ab91430800000000000000
+      internalID: 3754236439867208029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 4
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780f7b76a4766f100800000000000000
+      internalID: 141414007574098055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 5
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ba1951f2f634630800000000000000
+      internalID: 3910091149503736583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b3074fdfbe72ef0800000000000000
+      internalID: -132878188023891163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d7bec809b36fa70800000000000000
+      internalID: 8860334808923602214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 4
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597f35be1f0b744f0800000000000000
+      internalID: -844511852026923115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigExplodeEnemy_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 3
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0072ef66483f80630800000000000000
+      internalID: 3893629627850958592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

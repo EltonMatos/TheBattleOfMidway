@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - TiroPrincipal
+  - TiroMaster
+  - TiroInimigo
+  - ShotGun
+  - objDown
+  - objUp
+  - Enemy
+  - Pow
+  - WayShot
+  - StartEnemy2
+  - StartEnemy1
+  - Enemy2
+  - CheckDown
+  - CheckRight
+  - CheckLeft
+  - CheckUp
+  - CheckOut
+  - CheckInput
+  - Auto
+  - StartEnemy3
+  - EnergyTank
+  - Dead
+  - ThunderPower
+  - PosDown
+  - PosUp
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Player
+  - Item
+  - Enemy
+  - Dead
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

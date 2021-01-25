@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8864581363634062933}
   - component: {fileID: 8864581363634062930}
   - component: {fileID: 8864581363634062932}
+  - component: {fileID: 2446863288999221510}
   m_Layer: 10
   m_Name: ShotGun
   m_TagString: ShotGun
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8864581363634062928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3448, y: -0.134, z: 0}
-  m_LocalScale: {x: 2.8480802, y: 2.4956796, z: 1}
+  m_LocalPosition: {x: 3.4742, y: -0.0643, z: 0}
+  m_LocalScale: {x: 3.9637382, y: 3.2531326, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,3 +99,22 @@ CircleCollider2D:
   m_Offset: {x: 0.0022943984, y: 0.01078189}
   serializedVersion: 2
   m_Radius: 0.2596214
+--- !u!95 &2446863288999221510
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8864581363634062928}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 782af98bd9364bc40871df530cfa239d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8864581363634062933}
   - component: {fileID: 8864581363634062930}
   - component: {fileID: 8864581363634062932}
+  - component: {fileID: 4486704076313023375}
   m_Layer: 10
   m_Name: WayShot
   m_TagString: WayShot
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8864581363634062928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.444, y: 0.135, z: 0}
-  m_LocalScale: {x: 5.275282, y: 5.3290377, z: 1}
+  m_LocalPosition: {x: 4.45, y: 0.95, z: 0}
+  m_LocalScale: {x: 1.2508851, y: 1.601175, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: ec57b537efac2a143bb06d5b03c9f9e0, type: 3}
+  m_Sprite: {fileID: 249568837803001356, guid: d6bdcdb0e2172b94ea42e27db9cc6846, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,3 +99,22 @@ CircleCollider2D:
   m_Offset: {x: 0.0022943984, y: 0.01078189}
   serializedVersion: 2
   m_Radius: 0.2596214
+--- !u!95 &4486704076313023375
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8864581363634062928}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e53eec00730a00479f31da99381ffb6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
