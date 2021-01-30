@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: -1215127002699196718}
   - component: {fileID: 3402984124104486178}
   - component: {fileID: 4908149318376699110}
-  - component: {fileID: -3702760622295472469}
   - component: {fileID: 6648886475643693464}
   m_Layer: 11
   m_Name: Enemy2
@@ -114,14 +113,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   linhaTiroPrincipal: {fileID: 990424728757975553}
-  linhaTiroEsquerda: {fileID: 0}
-  linhaTiroDireita: {fileID: 0}
   tiroPrincipal: {fileID: 1860706049015914, guid: facb57bb323646d47806bdad290f898c,
     type: 3}
   shotThrowEnemy2: 0
   up:
+  - {fileID: 8864581363634062928, guid: 28bf61cd055314b4d808ef128ed7419f, type: 3}
   - {fileID: 2322917808767169104, guid: 63efd6f2ff8b787478488b55c654ddf9, type: 3}
-  - {fileID: 8864581363634062928, guid: e09f03eebf70a3a458dc65a6ffe4d856, type: 3}
+  - {fileID: 2309151277377786190, guid: 76378ae92ea03ea4f8ba7592f1b71236, type: 3}
+  explosionDano: {fileID: 5735663333919870975, guid: 0269f162e5ca1b248bc88eb754a82251,
+    type: 3}
+  explosionShot: {fileID: 3625328300394741983, guid: e9559a788253e4b418f11b1cdec6b90d,
+    type: 3}
+  targetUpEnemy2: {fileID: 0}
+  targetDownEnemy2: {fileID: 0}
 --- !u!61 &4908149318376699110
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -148,22 +152,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.260077, y: 0.13129207}
   m_EdgeRadius: 0
---- !u!58 &-3702760622295472469
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 990424728522156490}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00507439, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.25977623
 --- !u!95 &6648886475643693464
 Animator:
   serializedVersion: 3

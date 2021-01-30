@@ -29,33 +29,37 @@ public class Enemy1Control : MonoBehaviour
 
     [SerializeField]
     private StatusEnemy stEnemy;
-
     private Animator moveEnemy1;       
 
     [SerializeField]
-    private float speed = 2f;    
+    private float speed = 2.2f;    
     private float step;
 
     private bool checkDown = false;
 
     public GameObject explosionDano;
     private ExplosionPac explosion;
-    private int qntUp = 0;
+    private int qntUp, rand = 0;
+
+    private Transform posEnemy;    
 
     private void Start()
     {               
         moveEnemy1 = GetComponent<Animator>();
+        posEnemy = GetComponent<Transform>();
         step = -0.01f;
-        stEnemy = StatusEnemy.normal;        
-        enemy1 = new PlaneEnemy(3, EnemyType.Enemy1);
+        stEnemy = StatusEnemy.normal;
+        enemy1 = GetComponent<PlaneEnemy>();
+        enemy1.LifeEnemy = 3;        
+        rand = Random.Range(0, 2);        
     }
 
     void Update()
-    {
+    {        
         Move();
         if (GameManager.instance.gameStatus == GameStatus.Start)
         {            
-            Life();
+            Life();            
         }        
     }
 
@@ -67,7 +71,7 @@ public class Enemy1Control : MonoBehaviour
             if (checkDown)
             {                    
                 step = step * -1f;
-                speed = 2.7f;
+                speed = 4f;
                 checkDown = false;
             }                        
         }        
@@ -75,6 +79,7 @@ public class Enemy1Control : MonoBehaviour
 
     void Life()
     {
+        //morreu
         if (enemy1.LifeEnemy <= 0 && stEnemy == StatusEnemy.normal)
         {
             stEnemy = StatusEnemy.dead;
@@ -83,14 +88,7 @@ public class Enemy1Control : MonoBehaviour
             DropItem();
             this.gameObject.layer = 12;
             Destroy(gameObject);
-        } 
-        if(PlaneController.instance.colisionEnemyAndPlayer == true)
-        {
-            PlaneController.instance.colisionEnemyAndPlayer = false;
-            stEnemy = StatusEnemy.dead;
-            GameObject explosion = Instantiate(explosionDano, transform.position, Quaternion.identity) as GameObject;
-            this.gameObject.layer = 12; 
-        }
+        }         
     }
 
     void DropItem()
@@ -105,17 +103,17 @@ public class Enemy1Control : MonoBehaviour
     }
 
     IEnumerator ShotEnemy1()
-    {
-        if (GameManager.instance.gameStatus == GameStatus.Start)
-        {            
-            yield return new WaitForSeconds(2);
-            if (stEnemy == StatusEnemy.normal)
-            {                
+    {        
+        yield return new WaitForSeconds(rand);
+        if (stEnemy == StatusEnemy.normal)
+        {
+            if (GameManager.instance.gameStatus == GameStatus.Start)
+            {
                 GameObject tiro1 = Instantiate(tiroPrincipal, linhaTiroPrincipal.transform.position, Quaternion.identity) as GameObject;
                 tiro1.GetComponent<MoveShotEnemy>().Vel *= transform.localScale.x;
-                StartCoroutine(DestroyShot(tiro1));                
-            }            
-        }                
+                StartCoroutine(DestroyShot(tiro1));
+            }
+        }               
     }
 
     IEnumerator DestroyShot(GameObject tiro)
@@ -125,7 +123,11 @@ public class Enemy1Control : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D col)
-    {   
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            enemy1.LifeEnemy -= 3;            
+        }
         if (col.gameObject.CompareTag("TiroPrincipal"))
         {
             enemy1.LifeEnemy -= 3;
@@ -145,17 +147,22 @@ public class Enemy1Control : MonoBehaviour
         {
             enemy1.LifeEnemy -= 10;
             Destroy(col.gameObject);
-        }        
+        }
+        if (col.gameObject.CompareTag("SuperShell"))
+        {
+            enemy1.LifeEnemy -= 15;
+            Destroy(col.gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("CheckDown"))
         {
+            //tiro acontece depois que inimigo muda de direção
             StartCoroutine(ShotEnemy1());
             moveEnemy1.Play("AnimEnemy1");
             checkDown = true;
         }
-    }   
-
+    }    
 }

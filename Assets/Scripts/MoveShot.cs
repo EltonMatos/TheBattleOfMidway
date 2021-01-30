@@ -6,7 +6,9 @@ public class MoveShot : MonoBehaviour
 {
     private float vel = 9;
     [SerializeField]
-    private int direction = 0;    
+    private int direction = 0;
+
+    public GameObject explosionShot;
     
 
     public float Vel
@@ -18,21 +20,19 @@ public class MoveShot : MonoBehaviour
     
     void Move()
     {
-        if (PlaneController.instance.up == Upgrades.CommonShot) //|| PlaneController.instance.up == Upgrades.Auto)
+        if (PlaneController.instance.up == Upgrades.CommonShot || PlaneController.instance.up == Upgrades.SuperShell)
         {
             Vector3 aux = transform.position;
             aux.y += vel * Time.deltaTime;
             transform.position = aux;
         }
 
-        if (PlaneController.instance.up == Upgrades.Auto)
+        if (PlaneController.instance.up == Upgrades.Auto )
         {
             Vector3 aux = transform.position;
-            aux.y += 0.2f;
+            aux.y += 0.25f;
             transform.position = aux;
         }
-
-
 
         if (PlaneController.instance.up == Upgrades.ShotGun || PlaneController.instance.up == Upgrades.WayShot)
         {
@@ -58,6 +58,22 @@ public class MoveShot : MonoBehaviour
 
     private void Update()
     {
-        Move();
+        if(OndeEstou.instance.fase == 1) Move();
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("TiroInimigo") || col.gameObject.CompareTag("TiroInimigo2"))
+        {
+            GameObject shot = Instantiate(explosionShot, transform.position, Quaternion.identity) as GameObject;
+            Destroy(col.gameObject);
+            StartCoroutine(ExplodeShot(shot));
+        }
+    }
+
+    IEnumerator ExplodeShot(GameObject shot)
+    {
+        yield return new WaitForSeconds(2f);
+        Destroy(shot);
     }
 }

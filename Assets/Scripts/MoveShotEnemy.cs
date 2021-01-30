@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class MoveShotEnemy : MonoBehaviour
 {
-    private float vel = 1f;
+    private float vel = 1.6f;
     [SerializeField]
     private EnemyType tipoEn;
 
     private Transform targetPlayer;
 
     private bool posPlayer = true;
-
-    [SerializeField]
+        
     private float posTarget = 0;
     private Vector2 posTargetPlayer;
 
@@ -20,8 +19,8 @@ public class MoveShotEnemy : MonoBehaviour
     {
         if(GameManager.instance.gameStatus == GameStatus.Start)
         {
-            targetPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-            posTargetPlayer = Vector2.MoveTowards(transform.position, targetPlayer.position, 0.02f);
+            targetPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();            
+            posTarget = targetPlayer.position.x;
         }        
     }
 
@@ -32,49 +31,42 @@ public class MoveShotEnemy : MonoBehaviour
     }
 
     private void Update()
-    {
-        if(GameManager.instance.gameStatus == GameStatus.Start)
-        {
-            Move();
-        }        
+    {        
+        Move();                
     }
 
     void Move()
-    {        
-        if(tipoEn == EnemyType.Enemy2)
+    { 
+        if(tipoEn == EnemyType.Enemy1 && GameManager.instance.gameStatus == GameStatus.Start)
         {
-            transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, 0.02f);
-            StartCoroutine(Shot());
-        } 
-        if(tipoEn == EnemyType.Enemy1)
-        {
-            //pega posição X atual do player e salva
-            if (posPlayer)
+            Vector3 auxEn1 = transform.position;             
+            /*if(posTarget == 0)
             {
-                posTarget = targetPlayer.position.x;
-                posPlayer = false;
-            }
-            Vector3 auxEn1 = transform.position;
+                auxEn1.y -= vel * Time.deltaTime;
+                transform.position = auxEn1;
+            }*/
             if (posTarget > 0)
             {                
                 auxEn1.x += vel * Time.deltaTime;
                 transform.position = auxEn1;
-                
             }
-            if (posTarget < 0)
+            if (posTarget <= 0)
             {
                 auxEn1.x -= vel * Time.deltaTime;
                 transform.position = auxEn1;                
-            }
+            }           
         }
-        if (tipoEn == EnemyType.Enemy3)
+        if (tipoEn == EnemyType.Enemy2 && GameManager.instance.gameStatus == GameStatus.Start)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, 0.02f);
+            StartCoroutine(Shot());
+        }
+        if (tipoEn == EnemyType.Enemy3 || tipoEn == EnemyType.Enemy5)
         {
             Vector3 auxEn1 = transform.position;
             auxEn1.y -= vel * Time.deltaTime;
             transform.position = auxEn1;            
         }
-
-
     }
     IEnumerator Shot()
     {

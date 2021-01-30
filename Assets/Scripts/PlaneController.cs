@@ -10,9 +10,7 @@ public enum Upgrades
     WayShot,
     Auto,
     SuperShell,
-    EnergyTank,
-    SideFighter,
-    Yashichi
+    EnergyTank    
 }
 
 public class PlaneController : MonoBehaviour
@@ -22,10 +20,10 @@ public class PlaneController : MonoBehaviour
     [SerializeField]
     private GameObject linhaTiroPrincipal, linhaTiroPrincipal2, linhaTiroEsquerda, linhaTiroDireita, linhaTiroCentro;
     [SerializeField]
-    private GameObject tiroPrincipal, tiroWayShot, wayShotRight, wayShotLeft, tiroShotGun, shotGunRight, shotGunLeft, tiroAuto;
+    private GameObject tiroPrincipal, tiroWayShot, wayShotRight, wayShotLeft, tiroShotGun, shotGunRight, shotGunLeft, tiroAuto, tiroSuperShell;
     public Upgrades up;
     
-    public Transform targetShotLeft, targetShotRight, targetShotLeftShotGun, targetShotRightShotGun;
+    public Transform targetShotLeft, targetShotRight, targetPlayerPosition;
 
     public bool itemCarregado = false;
 
@@ -33,16 +31,14 @@ public class PlaneController : MonoBehaviour
     private float oldTimer;
     private bool isRunning = true;
 
-    private Animator animExplodePlayer, animFeedbackDano, animExplosionDano, animThunderPower;
+    private Animator animExplodePlayer, animDanoCollision, animExplosionDano, animThunderPower, animGoBack;
+    public int powerSpecial, superShell;
+    
 
-    private int powerSpecial;
-    public bool posThunder = false;
-    public GameObject thunderPower;
+    public AudioClip audioShot, audioUpgrade, audioLowLife, audioDead, audioDano, audioGoBack;
+    public AudioSource audioS, audioL;
 
-    public AudioClip audioShot, audioUpgrade, audioLowLife, audioDead;
-    public AudioSource audioS;
-
-    public bool colisionEnemyAndPlayer;
+    public bool soundLowLife;
 
     void Awake()
     {
@@ -61,20 +57,31 @@ public class PlaneController : MonoBehaviour
 
     void Start()
     {
+        if(OndeEstou.instance.fase == 1)
+        {
+            targetPlayerPosition.position = transform.position;
+        }
         animExplodePlayer = GetComponent<Animator>();
-        animFeedbackDano = GetComponent<Animator>();
+        animDanoCollision = GetComponent<Animator>();
         animExplosionDano = GetComponent<Animator>();
         animThunderPower = GetComponent<Animator>();
 
+        animGoBack = GetComponent<Animator>();
+
         up = Upgrades.CommonShot;
         powerSpecial = 3;
-
-        colisionEnemyAndPlayer = false;
+        superShell = 10;
+        
+        soundLowLife = false;
     }
 
     void Update()
     {
-        Commands();              
+        Commands();
+        if(GameManager.instance.gameStatus == GameStatus.MissionComplete)
+        {
+            audioS.Stop();
+        }
     }
 
     void Commands()
@@ -106,35 +113,45 @@ public class PlaneController : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.X) && up == Upgrades.Auto)
             {
-                //AudioPlay(audioShot);
+                AudioPlay(audioShot);
                 GameObject tiro13 = Instantiate(tiroAuto, linhaTiroCentro.transform.position, Quaternion.identity) as GameObject;
+            }
+            if (Input.GetKeyDown(KeyCode.X) && up == Upgrades.SuperShell)
+            {
+                AudioPlay(audioShot);
+                GameObject tiro14 = Instantiate(tiroSuperShell, linhaTiroCentro.transform.position, Quaternion.identity) as GameObject;
+                superShell--;
             }
             if (Input.GetKeyDown(KeyCode.C) && powerSpecial > 0)
             {
-                posThunder = true;
-                GameObject thunder = Instantiate(thunderPower, transform.position, Quaternion.identity) as GameObject;                
+                //GameManager.instance.gameStatus = GameStatus.GoBack;
+                animGoBack.Play("GoBack");
+                AudioPlay(audioGoBack);
                 powerSpecial--;               
             }
             
             //pouca vida
-            if (PlanePlayer.instance.lifePlayer >= 70)
+            if (PlanePlayer.instance.lifePlayer >= 70 && soundLowLife == false)
             {
-                AudioPlay(audioLowLife);                
+                audioL.clip = audioLowLife;
+                audioL.Play();
+                soundLowLife = true;
             }
             //morreu
             if (PlanePlayer.instance.lifePlayer >= 100)
             {
+                GameManager.instance.gameStatus = GameStatus.InsertCoin;
                 animExplodePlayer.Play("ExplodePlayer");
-                AudioPlay(audioDead);
-                GameManager.instance.gameStatus = GameStatus.GameOver;
-                StartCoroutine(ExplodePlane());
+                AudioPlay(audioDead);                
+                StartCoroutine(ExplodePlane());                
+                this.gameObject.layer = 12;                
             }
         }
     }
 
     IEnumerator ExplodePlane()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(3);        
         Destroy(gameObject);
     }
 
@@ -142,20 +159,33 @@ public class PlaneController : MonoBehaviour
     {
         //dano inimigo
         if (col.gameObject.CompareTag("Enemy"))
-        {           
-            PlanePlayer.instance.lifePlayer += 15;
-            colisionEnemyAndPlayer = true;
+        {
+            animDanoCollision.Play("FeedbackDanoPlayer");
+            PlanePlayer.instance.lifePlayer += 15;            
         }
         if (col.gameObject.CompareTag("Enemy2"))
         {
-            animFeedbackDano.Play("FeedbackDanoPlayer");
+            animDanoCollision.Play("FeedbackDanoPlayer");
+            PlanePlayer.instance.lifePlayer += 20;
+        }
+        if (col.gameObject.CompareTag("Enemy5"))
+        {
+            animDanoCollision.Play("FeedbackDanoPlayer");
             PlanePlayer.instance.lifePlayer += 15;
         }
         if (col.gameObject.CompareTag("TiroInimigo"))
         {
             animExplosionDano.Play("DanoPlayer");
+            AudioPlay(audioDano);
             Destroy(col.gameObject);
-            PlanePlayer.instance.lifePlayer += 5;
+            PlanePlayer.instance.lifePlayer += 10;
+        }
+        if (col.gameObject.CompareTag("TiroInimigo2"))
+        {
+            animExplosionDano.Play("DanoPlayer");
+            AudioPlay(audioDano);
+            Destroy(col.gameObject);
+            PlanePlayer.instance.lifePlayer += 15;
         }
 
         //Upgrades
@@ -164,7 +194,6 @@ public class PlaneController : MonoBehaviour
             if(PlanePlayer.instance.lifePlayer < PlanePlayer.instance.maxLife)
             {
                 AudioPlay(audioUpgrade);
-
                 PlanePlayer.instance.lifePlayer -= 5;
                 if(PlanePlayer.instance.lifePlayer > PlanePlayer.instance.maxLife)
                 {
@@ -173,31 +202,25 @@ public class PlaneController : MonoBehaviour
             }
             Destroy(col.gameObject);
         }
-        if (col.gameObject.CompareTag("ShotGun"))
-        {  
-            if(up != Upgrades.WayShot || up != Upgrades.Auto)
-            {
-                AudioPlay(audioUpgrade);
-                up = Upgrades.ShotGun;
-            }            
+        if (col.gameObject.CompareTag("ShotGun") && itemCarregado == false)
+        { 
+            AudioPlay(audioUpgrade);
+            up = Upgrades.ShotGun;                       
             Destroy(col.gameObject);
         }
-        if (col.gameObject.CompareTag("WayShot"))
+        if (col.gameObject.CompareTag("WayShot") && itemCarregado == false)
         {
-            print("entrou aqui");
             AudioPlay(audioUpgrade);
-
             up = Upgrades.WayShot;
             itemCarregado = true;
             Destroy(col.gameObject);
         }
-        if (col.gameObject.CompareTag("Auto"))
+        if (col.gameObject.CompareTag("Auto") && itemCarregado == false)
         {
-            if (up != Upgrades.WayShot)
-            {
-                AudioPlay(audioUpgrade);
-                up = Upgrades.Auto;
-            } 
+            
+            AudioPlay(audioUpgrade);
+            up = Upgrades.Auto;
+            itemCarregado = true;             
             Destroy(col.gameObject);
         }
         if (col.gameObject.CompareTag("EnergyTank"))
@@ -206,8 +229,13 @@ public class PlaneController : MonoBehaviour
             PlanePlayer.instance.lifePlayer = PlanePlayer.instance.minLife;            
             Destroy(col.gameObject);
         }
-        
-
+        if (col.gameObject.CompareTag("SuperShell") && itemCarregado == false)
+        {
+            AudioPlay(audioUpgrade);
+            up = Upgrades.SuperShell;
+            itemCarregado = true;
+            Destroy(col.gameObject);
+        }
     }
 
     void useFuel()
@@ -222,19 +250,13 @@ public class PlaneController : MonoBehaviour
                 fuelTimer = 10;
                 PlanePlayer.instance.lifePlayer += 2;
             }
-
         }
     }
 
     void AudioPlay(AudioClip audio)
-    {       
-
-        if (!audioS.isPlaying)
-        {   
-            audioS.clip = audio;
-            audioS.Play();
-        }
+    {           
+        audioS.clip = audio;
+        audioS.Play();        
     }
-
 
 }

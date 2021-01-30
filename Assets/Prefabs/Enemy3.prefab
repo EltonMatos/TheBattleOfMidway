@@ -115,9 +115,14 @@ MonoBehaviour:
   linhaTiroPrincipal: {fileID: 2282028812308003596}
   tiroPrincipal: {fileID: 1860706049015914, guid: 2bdc70a00f9a5ec4886577576555a51e,
     type: 3}
-  up: []
+  up:
+  - {fileID: 8864581363634062928, guid: 28bf61cd055314b4d808ef128ed7419f, type: 3}
+  - {fileID: 8864581363634062928, guid: e09f03eebf70a3a458dc65a6ffe4d856, type: 3}
+  - {fileID: 2309151277377786190, guid: 76378ae92ea03ea4f8ba7592f1b71236, type: 3}
+  - {fileID: 9125205140076684223, guid: d2e6e48624810fe459889a51cd854391, type: 3}
   explosionDano: {fileID: 8774186475719095823, guid: 8fb11817ef7d26242b1ed724d109b4a1,
     type: 3}
+  tipoEnemy: 0
 --- !u!61 &2282028811572300545
 BoxCollider2D:
   m_ObjectHideFlags: 0

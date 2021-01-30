@@ -11,12 +11,7 @@ public class PlaneEnemy : MonoBehaviour
     public bool checkColision;
     private EnemyType enemy;
 
-    public PlaneEnemy(int life, EnemyType enemytipe)
-    {
-        lifeEnemy = life;
-        enemy = enemytipe;
-    }
-
+    
     public int LifeEnemy
     {
         get { return lifeEnemy; }

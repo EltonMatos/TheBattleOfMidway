@@ -7,7 +7,6 @@ public class PlanePlayer : MonoBehaviour
     public static PlanePlayer instance;
 
     public int lifePlayer, minLife, maxLife, scorePlayer;
-    public float offensivePower, defensivePower, energyLevel, specialWeapons, specialWeaponsTimeLimit;
 
     void Awake()
     {
@@ -27,12 +26,7 @@ public class PlanePlayer : MonoBehaviour
         maxLife = 100;
         minLife = 0;
         scorePlayer = 0;
-        lifePlayer = minLife;
-        offensivePower = 1;
-        defensivePower = 1;
-        energyLevel = 1;
-        specialWeapons = 1;
-        specialWeaponsTimeLimit = 1;        
+        lifePlayer = minLife;                       
     }
 
     public int LifePlayer
@@ -45,5 +39,5 @@ public class PlanePlayer : MonoBehaviour
     {
         get { return scorePlayer; }
         set { scorePlayer = value; }
-    }
+    }    
 }

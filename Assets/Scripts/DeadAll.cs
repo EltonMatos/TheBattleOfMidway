@@ -4,17 +4,11 @@ using UnityEngine;
 
 public class DeadAll : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //classe criada para destruir objetos que de alguma forma não foram destruídos
     void Start()
     {
         StartCoroutine(DeadExplosion());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    }    
 
     IEnumerator DeadExplosion()
     {

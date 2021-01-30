@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 944512325093249553}
   - component: {fileID: 1177460192662568191}
   - component: {fileID: 2008896550069740993}
+  - component: {fileID: 8343276791894177137}
   m_Layer: 11
   m_Name: Enemy5
-  m_TagString: Enemy2
+  m_TagString: Enemy5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802874826085414953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.17, y: -0.55, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.3861, y: -0.3303, z: 0}
+  m_LocalScale: {x: 1.2117425, y: 1.261479, z: 1}
   m_Children:
   - {fileID: 3299231774536851411}
   m_Father: {fileID: 0}
@@ -74,10 +75,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -6600404909291878195, guid: e5bb9cd770746e847875ac9b15c5b568,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.990566, g: 0.34478304, b: 0.3317462, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -115,11 +116,17 @@ MonoBehaviour:
   linhaTiroPrincipal: {fileID: 6466365483046751705}
   tiroPrincipal: {fileID: 1860706049015914, guid: 2bdc70a00f9a5ec4886577576555a51e,
     type: 3}
-  up: []
+  up:
+  - {fileID: 8864581363634062928, guid: 28bf61cd055314b4d808ef128ed7419f, type: 3}
+  - {fileID: 8864581363634062928, guid: 28bf61cd055314b4d808ef128ed7419f, type: 3}
+  - {fileID: 2309151277377786190, guid: 76378ae92ea03ea4f8ba7592f1b71236, type: 3}
+  - {fileID: 9125205140076684223, guid: d2e6e48624810fe459889a51cd854391, type: 3}
   tagLeft: {fileID: 0}
   tagRight: {fileID: 0}
   stEnemy: 0
   bigExplosion: {fileID: 5735663333919870975, guid: 0269f162e5ca1b248bc88eb754a82251,
+    type: 3}
+  explosionShot: {fileID: 3625328300394741983, guid: e9559a788253e4b418f11b1cdec6b90d,
     type: 3}
   speed: 1.5
 --- !u!82 &1177460192662568191
@@ -244,6 +251,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.96875, y: 0.7449329}
   m_EdgeRadius: 0
+--- !u!95 &8343276791894177137
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802874826085414953}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac44e77e4820a484ca1c7b88ef7b5c52, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6466365483046751705
 GameObject:
   m_ObjectHideFlags: 0

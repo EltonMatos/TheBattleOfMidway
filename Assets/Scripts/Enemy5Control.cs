@@ -15,36 +15,41 @@ public class Enemy5Control : MonoBehaviour
     private Transform tagLeft, tagRight;
     private float posX = 0.01f;
 
-    private int qntUp = 0;
+    private int qntUp, qntShot = 0;
 
     [SerializeField]
     private StatusEnemy stEnemy;
 
     public GameObject bigExplosion;
-
+    public GameObject explosionShot;
 
     [SerializeField]
-    private float speed = 2.5f;
-    private float step;
+    private float speed = 4f;
+    private float step = 1f;
 
     private bool checkDown = false;
+
+    private Animator feedbackDano;   
 
 
     void Start()
     {
-        enemy5 = new PlaneEnemy(50, EnemyType.Enemy5);        
+        enemy5 = GetComponent<PlaneEnemy>();
+        enemy5.LifeEnemy = 100;
+        feedbackDano = GetComponent<Animator>();
         step = 0.01f;
-        stEnemy = StatusEnemy.normal;        
+        stEnemy = StatusEnemy.normal;
+        tagLeft = GameObject.Find("TagLeft").GetComponent<Transform>();
+        tagRight = GameObject.Find("TagRight").GetComponent<Transform>();
     }
-
-    // Update is called once per frame
+        
     void Update()
     {
         Move();
         if (GameManager.instance.gameStatus == GameStatus.Start)
         {
             Life();
-            if(enemy5.LifeEnemy <= 30 && stEnemy == StatusEnemy.normal)
+            if(enemy5.LifeEnemy <= 70 && stEnemy == StatusEnemy.normal)
             {                
                 Shot();
             }
@@ -58,8 +63,8 @@ public class Enemy5Control : MonoBehaviour
             transform.Translate(posX, step * speed, 0);
             if (checkDown)
             {
-                step = step * -1f;
-                speed = 1f;
+                step = step * 1f;
+                speed = 3f;
                 checkDown = false;
             }
             if(transform.position.x <= tagLeft.position.x)
@@ -81,7 +86,8 @@ public class Enemy5Control : MonoBehaviour
             GameObject explosion = Instantiate(bigExplosion, transform.position, Quaternion.identity) as GameObject;
             this.gameObject.layer = 12;
             PlanePlayer.instance.scorePlayer += 20;
-            DropItem();            
+            DropItem();
+            Destroy(gameObject);
         }
     }
     void DropItem()
@@ -94,18 +100,16 @@ public class Enemy5Control : MonoBehaviour
             qntUp = 1;
         }
     }
-
     void Shot()
-    {
-        qntUp++;
-        if (qntUp == 1)
+    {        
+        if (qntShot == 0)
         {
+            qntShot++;
             GameObject tiro = Instantiate(tiroPrincipal, linhaTiroPrincipal.transform.position, Quaternion.identity) as GameObject;
             tiro.GetComponent<MoveShotEnemy>().Vel *= transform.localScale.y;
             StartCoroutine(DestroyShot(tiro));
-            StartCoroutine(lancarNovamente());
-        }
-        
+            StartCoroutine(lancarNovamente());            
+        }        
     }
 
     IEnumerator DestroyShot(GameObject tiro)
@@ -116,8 +120,8 @@ public class Enemy5Control : MonoBehaviour
 
     IEnumerator lancarNovamente()
     {
-        yield return new WaitForSeconds(3);
-        qntUp = 0;
+        yield return new WaitForSeconds(1);
+        qntShot = 0;
         Shot();        
     }
 
@@ -138,24 +142,58 @@ public class Enemy5Control : MonoBehaviour
     {
         if (col.gameObject.CompareTag("TiroPrincipal"))
         {
+            GameObject shot = Instantiate(explosionShot, transform.position, Quaternion.identity) as GameObject;
             enemy5.LifeEnemy -= 3;
             Destroy(col.gameObject);
+            StartCoroutine(ExplodeShot(shot));
         }
         if (col.gameObject.CompareTag("ShotGun"))
         {
+            GameObject shot = Instantiate(explosionShot, transform.position, Quaternion.identity) as GameObject;
             enemy5.LifeEnemy -= 5;
             Destroy(col.gameObject);
+            StartCoroutine(ExplodeShot(shot));
         }
         if (col.gameObject.CompareTag("WayShot"))
         {
+            GameObject shot = Instantiate(explosionShot, transform.position, Quaternion.identity) as GameObject;
             enemy5.LifeEnemy -= 8;
             Destroy(col.gameObject);
+            StartCoroutine(ExplodeShot(shot));
         }
         if (col.gameObject.CompareTag("Auto"))
         {
+            GameObject shot = Instantiate(explosionShot, transform.position, Quaternion.identity) as GameObject;
             enemy5.LifeEnemy -= 10;
             Destroy(col.gameObject);
+            StartCoroutine(ExplodeShot(shot));
+        }
+        if (col.gameObject.CompareTag("SuperShell"))
+        {
+            GameObject shot = Instantiate(explosionShot, transform.position, Quaternion.identity) as GameObject;
+            enemy5.LifeEnemy -= 15;
+            Destroy(col.gameObject);
+            StartCoroutine(ExplodeShot(shot));
+        }
+        if (col.gameObject.CompareTag("Player"))
+        {
+            GameObject shot = Instantiate(explosionShot, linhaTiroPrincipal.transform.position, Quaternion.identity) as GameObject;
+            enemy5.LifeEnemy -= 10;
+            StartCoroutine(ExplodeShot(shot));
         }
     }
 
+    IEnumerator ExplodeShot(GameObject shot)
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(shot);
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {        
+        if (col.gameObject.CompareTag("CheckDown"))
+        {
+            checkDown = true;            
+        }
+    }
 }

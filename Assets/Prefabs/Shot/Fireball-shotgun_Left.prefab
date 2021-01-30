@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: 2
+  explosionShot: {fileID: 3625328300394741983, guid: e9559a788253e4b418f11b1cdec6b90d,
+    type: 3}
 --- !u!58 &-4279289687159085835
 CircleCollider2D:
   m_ObjectHideFlags: 0
